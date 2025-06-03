@@ -10,8 +10,8 @@ private:
 
 public:
     Stack();
-    Stack(const Stack& other);                 // Копіюючий конструктор
-    Stack& operator=(const Stack& other);      // Оператор присвоєння
+    Stack(const Stack& other);                 
+    Stack& operator=(const Stack& other);      
     ~Stack();
 
     void push(int elem);
