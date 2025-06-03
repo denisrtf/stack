@@ -6,13 +6,8 @@ int main() {
     st.push(6);
     st.push(60);
     st.push(40);
-    st.show(); // має вивести: 6 60 40
+    st.show(); 
 
-    // Додаткові перевірки:
-    // st.multiPop(2);
-    // st.show();
-
-    // Stack copy = st; // Перевірка копіюючого конструктора
     // copy.push(100);
     // copy.show();
 
